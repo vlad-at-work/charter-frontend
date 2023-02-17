@@ -1,0 +1,30 @@
+.card {
+    width: 25%;
+    height: 100%;
+    margin-left: 5%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #0A192A;
+    border:1px solid #515151;
+}
+.table {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #515151;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
